@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: inline;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* 上揃え */
+  height: 100vh; /* 高さを100%に設定 */
+}
+.container .left {
+  margin-left: 10px; /* 左寄せのためのマージン */
+}
+.container .right {
+  margin-right: 20px; /* 右寄せのためのマージン */
+  display: flex;
+  flex-direction: column;
+}
+.container .right .setting {
+  margin-top: 10px;
+  padding-left: 10px;
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+
+header {
+  background-color: lightskyblue;
+  color: white;
+  height: 200px;
+}
+
+#icon {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+#site-name {
+  vertical-align: 16px;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=about.css.map */
